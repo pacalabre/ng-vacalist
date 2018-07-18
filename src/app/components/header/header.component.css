@@ -1,0 +1,72 @@
+.component-nav {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+}
+
+.logo-a {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 100;
+	text-decoration: none;
+	color: #2ecc71;
+}
+
+.logo-span {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+.component-nav-ul {
+	border-top: solid #222 thin;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.component-nav-ul-li a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.component-nav-ul-li {
+	display: flex;
+	margin: 10px 0;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.component-nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.logo-div {
+		display: flex;
+		justify-content: flex-start;
+		margin: 20px;
+	}
+
+	.component-nav-ul {
+		display: flex;
+		justify-content: flex-end;
+		margin: 20px;
+		flex-direction: row;
+		border-top: none;
+	}
+
+	.component-nav-ul-li {
+		display: flex;
+		margin: 0 10px;
+	}
+
+	.component-nav-ul-li:hover {
+		border-bottom: solid thin #2ecc71;
+		padding-bottom: 5px;
+		margin-bottom: -5px;
+		transition: .2s;
+	}
+}
