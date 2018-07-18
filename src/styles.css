@@ -1,11 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400');
-
-/* CSS RESET *
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -16,41 +9,121 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
+
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
-	font-family: arial;
+    font-family: arial;
+}
+
+/* Global Listing Styles */
+
+.listing-section {
+    margin: 20px;
+}
+
+.listing-ul {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+}
+
+.listing-a {
+    color: black;
+    text-decoration: none;
+}
+
+.listing-li {
+    border: thin solid #f2f2f2;
+    position: relative;
+}
+
+.listing-img {
+    width: 100%;
+}
+
+.listing-details {
+    padding: 20px;
+}
+
+.listing-text {
+    padding: 2px 0;
+}
+
+.fa-heart {
+    color: white;
+}
+
+.liked-btn {
+    background: #f2f2f2;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.is-liked {
+    background-color: red;
+}
+ 
+@media (min-width: 580px) {
+
+    .listing-ul {
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .listing-li:hover {
+        /* -ms-transform: translateY(-5px); */
+        transform: translateY(-5px);
+        transition: .5s;
+        /* -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); */
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+
 }
