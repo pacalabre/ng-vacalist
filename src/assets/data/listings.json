@@ -1,0 +1,174 @@
+{
+	"listings":[
+		{
+            "listingId": 1,
+            "img": "./assets/family-1.jpg",
+            "title":"2 bedroom 1 bathroom in Cap Hill",
+            "locationCity": "seattle",
+            "locationState": "wa",
+            "pricePerNight": "130",
+            "isLiked": false,
+            "isFeatured": true
+		},
+		{
+            "listingId": 2,
+            "img": "./assets/family-3.jpg",
+            "title":"Historic house close to the Cape!",
+            "locationCity": "tiverton",
+            "locationState": "ri",
+            "pricePerNight": "80",
+            "isLiked": false,
+            "isFeatured": true
+        },
+        {
+            "listingId": 3,
+            "img": "./assets/family-2.jpg",
+            "title":"3 bedroom 1 bath in Wash Park area",
+            "locationCity": "denver",
+            "locationState": "co",
+            "pricePerNight": "100",
+            "isLiked": false,
+            "isFeatured": true
+        },
+        {
+            "listingId": 4,
+            "img": "./assets/rental-1.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+        {
+            "listingId": 5,
+            "img": "./assets/rental-2.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 6,
+            "img": "./assets/rental-3.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 7,
+            "img": "./assets/rental-4.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 8,
+            "img": "./assets/rental-5.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 9,
+            "img": "./assets/rental-6.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 10,
+            "img": "./assets/rental-7.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 11,
+            "img": "./assets/rental-8.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 12,
+            "img": "./assets/rental-9.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 13,
+            "img": "./assets/rental-10.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 14,
+            "img": "./assets/rental-11.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 15,
+            "img": "./assets/rental-12.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 16,
+            "img": "./assets/rental-13.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      },
+      {
+            "listingId": 17,
+            "img": "./assets/rental-15.jpg",
+            "title":"Right by Okemo Mountain!",
+            "locationCity": "ludlow",
+            "locationState": "vt",
+            "pricePerNight": "90",
+            "isLiked": false,
+            "isFeatured": false
+      }
+	]
+}

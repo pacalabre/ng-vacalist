@@ -1,3 +1,19 @@
-<p>
-  featured-listings works!
-</p>
+<section class="listing-section">
+  <h3 class="featured-listing-h3">Featured Listings</h3>
+  <ul class="listing-ul" >  
+    <li class="listing-li" *ngFor="let post of listOfFeatured">
+        <a href="#" class="listing-a">
+          <h3 class="featured-listing-label">Featured Listing</h3>
+          <img class="listing-img" alt="featured listing" src="{{post.img}}">
+          <div class="listing-details">
+            <h4 class="listing-text">{{ post.title | titlecase}}</h4>
+            <h5 class="listing-text">{{ post.locationCity | titlecase }}, {{post.locationState | uppercase}}</h5>
+            <p class="listing-text">${{ post.pricePerNight }}/night</p>
+          </div>
+        </a>
+        <button class="liked-btn" (click)="toggleLiked($event)" [class.is-liked]="isLiked">
+          Add to Favorites<i class="fas fa-heart" ></i>
+        </button>
+    </li>
+  </ul>
+</section>
