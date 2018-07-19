@@ -1,3 +1,4 @@
+import { ListService } from '../../services/list.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nonfeatured-listings.component.css']
 })
 export class NonfeaturedListingsComponent implements OnInit {
+  listOfPosts = [];
+  listOfNotFeatured=[];
 
-  constructor() { }
+  filterNotFeaturedListings() {
+    for(let i=0; i < this.listOfPosts.length; i++) {
+      if(this.listOfPosts[i].isFeatured === false) {
+        this.listOfNotFeatured.push(this.listOfPosts[i]);
+      }
+    }
+  }
 
-  ngOnInit() {
+  constructor(private service: ListService) { }
+
+    ngOnInit() {
+      this.service.getAllListings()
+      .subscribe(res => {
+        this.listOfPosts = res.listings;
+        this.filterNotFeaturedListings();     
+    })
   }
 
 }
