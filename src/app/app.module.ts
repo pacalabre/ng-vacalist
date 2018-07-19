@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { FeaturedListingsComponent } from './components/featured-listings/featured-listings.component';
 import { NonfeaturedListingsComponent } from './components/nonfeatured-listings/nonfeatured-listings.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { NonfeaturedListingsComponent } from './components/nonfeatured-listings/
     HeaderComponent,
     HeroComponent,
     FeaturedListingsComponent,
-    NonfeaturedListingsComponent
+    NonfeaturedListingsComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400');
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -9,8 +16,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -19,36 +26,35 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
 }
-
 /* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
-
 blockquote:before, blockquote:after,
-
 q:before, q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/* Base Styles */
+
+.main-wrapper {
+    max-width: 1600px;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
@@ -66,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li {
     display: grid;
     grid-gap: 20px;
     -ms-grid-columns: auto;
-    grid-template-columns: auto;
+        grid-template-columns: auto;
 }
 
 .listing-a {
@@ -106,12 +112,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li {
 .is-liked {
     background-color: red;
 }
- 
-@media (min-width: 580px) {
 
+@media (min-width: 580px) {
+    
     .listing-ul {
         -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -124,5 +130,4 @@ h1, h2, h3, h4, h5, h6, p, a, ul, li {
         /* -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); */
         box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
     }
-
 }
