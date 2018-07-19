@@ -30,6 +30,7 @@ export class FeaturedListingsComponent implements OnInit {
   ngOnInit() {
     this.service.getAllListings()
     .subscribe(res => {
+      console.log(res.listings);
       this.listOfPosts = res.listings;
       this.filterFeaturedListings();     
     })
